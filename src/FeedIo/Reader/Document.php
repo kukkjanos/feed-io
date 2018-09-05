@@ -59,7 +59,8 @@ class Document
      */
     public function isXml() : bool
     {
-        return $this->startWith('<');
+	return true;
+//        return $this->startWith('<');
     }
 
     /**
